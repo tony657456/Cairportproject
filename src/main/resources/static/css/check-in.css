@@ -1,0 +1,200 @@
+@charset "UTF-8";* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Elice Digital Baeum", sans-serif;
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 0px 145px 0px 0px;
+}
+
+.menu div {
+  margin-left: 70px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-weight: 800;
+}
+
+.menu a:hover {
+  color: rgb(20, 20, 20);
+}
+
+.menu2 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+.bucket {
+  margin-left: 15px;
+}
+
+.menu2 a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-weight: 800;
+}
+
+.menu2 a:hover {
+  color: rgb(20, 20, 20);
+}
+
+/* 여정 정보 */
+.plan-text {
+  margin: 2rem 0 0.8rem;
+  color: #00256c;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.56;
+  margin-top: 20px;
+}
+
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+  .plan-people {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 800px;
+    border: 1px solid #d9dbe1;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.58;
+    background-color: #00256c;
+  }
+
+.plan-box {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 800px;
+  border: 1px solid #d9dbe1;
+}
+
+/* 여정 정보 박스 안 */
+  .plan-title1 {
+    display: block;
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+    float: left;
+    color: #00256c;
+  }
+
+  .plan-en {
+    display: inline;
+    color: #000;
+    font-size: 1.3rem;
+  }
+/* 여정 정보 박스 끝 */
+
+.reservation_box{
+  display: flex;
+}
+
+.confirm_table_box2 {
+  display: block;
+  width: 20%;
+  margin: 0;
+  padding: 1.5rem 2rem 1.6rem;
+  border: 1px solid #013066;
+  border-radius: 0.2rem;
+  background-color: #013066;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.58;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.plan-text {
+	margin-bottom: 30px;
+}
+
+.plan-text2 {
+	margin-left: 100px;	
+}
+
+.plan-text3 {
+  margin: 2rem 0 0.8rem;
+  color: #00256c;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.56;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.plan-text4 {
+	text-decoration: none;
+	margin-bottom: 40px;
+	margin-left: 100px;
+}
+
+
+/* 푸터시작 */
+.imformation_form {
+  font-family: "Elice Digital Baeum", sans-serif;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(235, 235, 235);
+  margin-top: 350px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.imformation_text1 {
+  color: rgb(145, 145, 145);
+}
+
+.imformation_text2 {
+  color: rgb(145, 145, 145);
+}
+
+.imformation_text3 {
+  margin-top: 10px;
+}
+
+.imformation-icon {
+  display: inline-block;
+  margin-left: 550px;
+  margin-bottom: 60px;
+}

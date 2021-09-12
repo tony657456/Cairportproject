@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Elice Digital Baeum", sans-serif;
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 0px 145px 0px 0px;
+}
+
+.menu div {
+  margin-left: 70px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-weight: 800;
+}
+
+.menu a:hover {
+  color: rgb(20, 20, 20);
+}
+
+.menu2 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+.bucket {
+  margin-left: 15px;
+}
+
+.menu2 a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-weight: 800;
+}
+
+.menu2 a:hover {
+  color: rgb(20, 20, 20);
+}
+/* 헤더 끝 */
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d9dbe1;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: -40px;
+}
+
+.main-text {
+  margin: 2rem 0 0.8rem;
+  color: #00256c;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.56;
+}
+
+.main-text2 {
+  margin-bottom: 50px;
+}
+
+.infor-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 900px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.58;
+}
+
+.text1 {
+  margin-top: 6x;
+  font-size: small;
+  color: #00256c;
+  text-decoration-line: none;
+}
+
+/* 푸터시작 */
+.imformation_form {
+  font-family: "Elice Digital Baeum", sans-serif;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(235, 235, 235);
+  height: 150px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.imformation_text1 {
+  color: rgb(145, 145, 145);
+}
+
+.imformation_text2 {
+  color: rgb(145, 145, 145);
+}
+
+.imformation_text3 {
+  margin-top: 10px;
+}
+
+.imformation-icon {
+  display: inline-block;
+  margin-left: 550px;
+  margin-bottom: 60px;
+}

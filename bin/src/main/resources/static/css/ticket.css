@@ -1,0 +1,200 @@
+.container {
+  font-family: "Elice Digital Baeum",sans-serif;
+}
+
+/* 헤더 시작 */
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 0px 145px 0px 0px;
+}
+
+.menu div {
+  margin-left: 70px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-weight: 800;
+}
+
+.menu a:hover {
+  color: rgb(20, 20, 20);
+}
+
+.menu2 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+.bucket {
+  margin-left: 15px;
+}
+
+.menu2 a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-weight: 800;
+}
+
+.menu2 a:hover {
+  color: rgb(20, 20, 20);
+}
+/* 헤더 끝 */
+
+
+/* 메인 텍스트 */
+.text_box {
+  color: #00256c;
+  font-size: 1.6rem;
+  margin-top: 3%;
+}
+
+.text-title {
+  margin-right: 3%;
+  margin-left: 20px;
+}
+
+/* 정렬 버튼 */
+.dropdown {
+  width: 4.4rem;
+  height: 3.6rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
+.button {
+  display: flex;
+}
+
+/* 시간, 항공기 정보 박스 */
+
+.list-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-list-text-box {
+  display: flex;
+  height: 200px;
+  padding: 3.2rem 2.4rem 3rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.form-time {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form-to-time {
+  color: #00256c;
+  font-size: 1.2rem;
+}
+
+.air-data {
+  margin-top: .5rem;
+  padding-right: 1rem;
+}
+
+/* 특가 정보 박스 */
+.sale-seat {
+  display: inline-block;
+  height: 200px;
+  padding: 3.2rem 2.4rem 3rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.sale-seat:hover {
+  border: 1px solid #002f88;
+}
+
+.sale-seat:visited {
+  border: 1px solid white;
+  background-color: 00256c;
+}
+
+/* 정상 정보 박스 */
+.seat {
+  display: inline-block;
+  height: 200px;
+  padding: 3.2rem 2.4rem 3rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.seat:hover {
+  border: 1px solid #002f88;
+}
+
+/* 프리스티지 정보 박스 */
+.prestige-seat {
+  display: inline-block;
+  height: 200px;
+  padding: 3.2rem 2.4rem 3rem;
+  background-color: #fff;
+  border: 1px solid #2068d1;
+  background-color: #f8fbff;
+  margin-left: 10px;
+}
+
+.prestige-seat:hover {
+  border: 1px solid #002f88;
+}
+
+/* 푸터 부분 시작 */
+.footer {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: 0px 0px 3px 0px rgb(151, 151, 151);
+  align-items: center;
+  margin: 0 auto;
+  padding: 13px 13px 13px 20px;
+}
+
+.total-price {
+  display: inline-block;
+  padding: 0 4rem 0 0;
+  font-size: 1.5rem;
+  line-height: 1.56;
+  flex-grow: 1;
+}
+
+.totla-price2{
+  display: inline-block;
+  padding-right: 13px;
+  font-size: 1.3rem;
+}
+
+.btn btn-primary btn-lg {
+  display: inline-block;
+  width: auto;
+  min-width: 100%;
+  height: 100%;
+  font-size: 1.8rem;
+  line-height: 1.56;
+}

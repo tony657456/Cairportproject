@@ -1,0 +1,401 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Elice Digital Baeum",sans-serif;
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 0px 145px 0px 0px;
+}
+
+.menu div {
+  margin-left: 70px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-weight: 800;
+}
+
+.menu a:hover {
+  color: rgb(20, 20, 20);
+}
+
+.menu2 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+.bucket {
+  margin-left: 15px;
+}
+
+.menu2 a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-weight: 800;
+}
+
+.menu2 a:hover {
+  color: rgb(20, 20, 20);
+}
+
+/* 메인 시작 */
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 97%;
+}
+
+.main_airport_img {
+  display: flex;
+}
+
+.main_airport_img img {
+  width: 100%;
+}
+
+/* 서치박스 시작 */
+.search_box {
+  width: 480px;
+  background-color: rgb(255, 255, 255, 0);
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+  left: -1200px;
+  border-radius: 6px;
+}
+
+.search_form_title {
+  padding: 10px 0px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.search_form_title2 {
+  padding: 10px 0px 10px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.startcontent_reachcontent_box {
+  display: flex;
+}
+
+.startcontent_box {
+  width: 97%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  margin: 0px 0px 15px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    radial-gradient(#ddd 70%, transparent 72%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 0.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+
+.reachcontent_box {
+  width: 97%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  margin: 0px 0px 15px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    radial-gradient(#ddd 70%, transparent 72%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 0.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+
+.start_form_input {
+  width: 97%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 0.5em 0.5em 1em;
+
+  margin: 0px 0px 15px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.reach_form_input {
+  width: 97%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 0.5em 0.5em 1em;
+
+  margin: 0px 0px 15px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.category_box {
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  margin: 0px 0px 15px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    radial-gradient(#ddd 70%, transparent 72%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 0.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+
+.seat_box {
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  margin: 0px 0px 15px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    radial-gradient(#ddd 70%, transparent 72%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 0.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+
+.search_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search_button button {
+  background-color: skyblue;
+  color: white;
+  width: 70px;
+  height: 45px;
+  font-weight: 700;
+  border-radius: 6px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.test {
+  float: right;
+}
+/* 서치박스 끝 */
+
+/* reservation 시작 */
+.reservation_form {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation_box {
+  height: 180px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reservation_content1 button {
+  background-color: white;
+  color: rgb(41, 40, 40);
+  height: 45px;
+  font-size: 21px;
+  font-weight: 1000;
+  border-radius: 6px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.reservation_content2 button {
+  background-color: white;
+  color: rgb(41, 40, 40);
+  height: 45px;
+  font-size: 21px;
+  font-weight: 1000;
+  border-radius: 6px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.reservation_content3 button {
+  background-color: white;
+  color: rgb(41, 40, 40);
+  height: 45px;
+  font-size: 21px;
+  font-weight: 1000;
+  border-radius: 6px;
+  border: 0px;
+  cursor: pointer;
+}
+/* reservation 시작  */
+
+/* 지금떠나기 좋은 여행 시작 */
+.nowtrip_form {
+  display: inline-block;
+}
+
+.nowtrip_title {
+  margin: 30px 0px 0px 30px;
+  width: 70%;
+  font-size: 20px;
+  color: rgb(41, 40, 40);
+  font-weight: 1000;
+}
+
+.nowtrip_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-4 {
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.col-md-4 img {
+  width: 100%;
+  height: auto;
+}
+
+body .carousel-control-prev-icon,
+body .carousel-indicators li,
+body .carousel-control-next-icon {
+  background-color: #000;
+}
+
+span.carousel-control-prev-icon {
+  position: relative;
+  bottom: 40px;
+  right: 40px;
+}
+
+span.carousel-control-next-icon {
+  position: relative;
+  bottom: 40px;
+}
+/* 지금떠나기 좋은 여행 시작 끝 */
+/* 메인 끝 */
+
+/* 푸터시작 */
+.imformation_form {
+  font-family: "Elice Digital Baeum",sans-serif;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(235, 235, 235);
+  height: 150px;
+  
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px 20px 20px
+}
+
+.imformation_text1 {
+  color: rgb(145, 145, 145);
+}
+
+.imformation_text2 {
+  color: rgb(145, 145, 145);
+}
+
+.imformation_text3 {
+  margin-top: 10px;
+}
+
+.imformation-icon {
+  display: inline-block;
+  margin-left: 550px;
+  margin-bottom: 60px;
+}
