@@ -1,4 +1,4 @@
-#티켓 예약 코드
+###티켓 예약 코드
 ```java
 package com.cos.webproject.web;
 
@@ -168,7 +168,7 @@ public class PlaneTicketController {
 }
 ```
 
-#회원가입 로그인
+###회원가입 로그인
 ```java
 package com.cos.webproject.web;
 
@@ -260,7 +260,7 @@ public class UserController {
 
 ```
 
-#예약 내역
+###예약 내역
 ```java
 package com.cos.webproject.web;
 
