@@ -10,7 +10,7 @@ import com.cos.webproject.web.dto.TicketReqDto;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-// 공공데이터 요청변수에 필수 요청변수에 출발지와 도착지가 필수로 들어가야 해서 일일이 부산에서 제주가는 오브젝트, 서울에서 부산오는 오브젝트 이렇게 만들어줘야 하나..?
+// 공공데이터에 요청하는 값이랑 내가 받아 온 Dto의 변수 값이 똑같아야지 대한한공에 공공데이터를 요청할 수 있다.
 public class KimHaeJejuDataDownload {
         public static String goAirport(TicketReqDto ticketReqDto) throws IOException {
                 StringBuilder urlBuilder = new StringBuilder(

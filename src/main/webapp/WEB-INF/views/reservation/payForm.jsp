@@ -131,7 +131,7 @@
     IMP.request_pay({ // param
     pg: "html5_inicis",
     pay_method: "card",
-    merchant_uid: "ORD20180131-0000096",
+    merchant_uid: "ORD20180131-0000099",
     name: "회전 의자",
     amount: 100,
     buyer_email: "gildong@gmail.com",
