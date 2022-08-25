@@ -1,4 +1,4 @@
-###티켓 예약 코드
+### 티켓 예약 코드
 ```java
 package com.cos.webproject.web;
 
