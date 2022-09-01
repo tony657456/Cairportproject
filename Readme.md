@@ -156,6 +156,18 @@ public class KimHaeJejuDataDownload {
 }
 ```
 
+## Pathvariable 사용법
+```java
+	// Pathvariable을 사용하면 uri에서 {id}안에 있는 값을 들고 와
+	   매개변수에 넣어줄 수 있다.
+	@GetMapping("/user/checkin/{id}")
+	public String checkin(Model model, @PathVariable int id) {
+		List<Payment> checkinEntity = paymentRepository.mFindpayment(id);
+		model.addAttribute("checkins", checkinEntity);
+		return "check/check-in";
+	}
+```
+
 ## DB 연결 및 ViewResolver 설정
 ```yml
 server:
