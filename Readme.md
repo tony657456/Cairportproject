@@ -155,3 +155,32 @@ public class KimHaeJejuDataDownload {
     }
 }
 ```
+
+## DB 연결 및 ViewResolver 설정
+```yml
+server:
+  port: 8000
+  servlet:
+    encoding:
+      charset: UTF-8
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: korea1234
+    url: jdbc:mysql://localhost:3307/airport
+
+  jpa:
+    hibernate:
+      ddl-auto: none # create, update, none  
+    show-sql: true
+  output:
+    ansi:
+      enabled: always
+```
