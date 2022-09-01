@@ -8,7 +8,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-// 이 부분이 리플렉션이라고 생각을 하는데 
+// 리플렉션의 개념을 찾아보고 예시도 봤지만 어느 부분에서 리플렉션 기법이 쓰였는지 잘 모르겠다.
+   아마 InterceptorRegistry를 이용해서 sessionintercepter 객체를 사용하는 부분에서 리플렉션 기법이
+   사용된 거 같다. 이 코드는 내가 설정한 /user로 시작하는 경로를 인터셉터가 가로챈 다음  sessionintercepter
+   클래스를 실행시켜 조건문을 검사한 다음 if문에 부합하지 않을테니까 true를 return해서 controller에 접근 가능하게 한다.
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 @Override
