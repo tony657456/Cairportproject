@@ -159,12 +159,34 @@ public class KimHaeJejuDataDownload {
 ## Pathvariable 사용법
 ```java
 	// Pathvariable을 사용하면 uri에서 {id}안에 있는 값을 들고 와
-	   매개변수에 넣어줄 수 있다.
+	   매개변수에 넣어줄 수 있다. 여기서 의문점은 '굳이 쿼리스트링을 쓸 필요가 있을까?' 였다.
 	@GetMapping("/user/checkin/{id}")
 	public String checkin(Model model, @PathVariable int id) {
 		List<Payment> checkinEntity = paymentRepository.mFindpayment(id);
 		model.addAttribute("checkins", checkinEntity);
 		return "check/check-in";
+	}
+```
+
+## @RequestBody / @ResponseBody
+```java
+
+// @RequestBody를 사용하면 Buffer의 기본 동작을 해 줄 뿐만 아니라 json으로 온 데이터를 자바의 객체 형태로
+   바꿔주는 역할을 한다. form의 형태로 데이터가 오면 Spring에서는 @RequestBody 어노테이션을 받을 필요 없지만
+   form의 형태는 put과 delete의 동작이 불가능 하기 때문에 불편하다. @ResponseBody는 반대로 자바의 객체 형태를
+   json의 형태로 바꿔주는 역할을 한다. @Cotroller는 View를 리턴하기 때문에 위에 언급한 어노테이션을 쓸 일이 많지만
+   @RestController를 선언해 데이터를 주고 받는다면 @RestController에는 @RequestBody, @ResponseBody같은
+   어노테이션을 사용해 줄 필요 없다.
+@PostMapping("/auth/usernamecheck")
+	public @ResponseBody String usernamecheck(@RequestBody UsernameCheckDto usernameCheckDto) {
+		// findAll()하려면 컬렉션 형태에 담아줘야 함.
+		User userEntity = userRepository.mFindUsername(usernameCheckDto.getUsername());
+		System.out.println(userEntity);
+		if(userEntity == null) {
+			return "ok";
+		} else {
+			return "false";
+		}
 	}
 ```
 
