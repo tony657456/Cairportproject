@@ -190,6 +190,37 @@ public class KimHaeJejuDataDownload {
 	}
 ```
 
+## 비동기 통신
+```javascript
+async function checkid(){
+	
+ 	let chkidDto = {
+			username: document.querySelector("#username").value
+	};
+ 	
+	console.log(chkidDto);
+	
+	let response = await fetch("/auth/usernamecheck", {
+		method: "post",
+		body: JSON.stringify(chkidDto),
+		headers: {
+			"Content-Type": "application/json; charset=utf-8"
+		}
+	});
+	
+	let parseResponse = await response.text();
+	
+	// 중복확인을 하면 isSameCheck를 강제로 true로 만듬
+	if(parseResponse === "ok"){
+		alert("사용가능한 아이디입니다.");
+		isSameCheck = true;
+	} else {
+		alert("사용중인 아이디입니다.");
+	}
+}
+
+```
+
 ## DB 연결 및 ViewResolver 설정
 ```yml
 server:
