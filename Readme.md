@@ -1,4 +1,37 @@
-# - 주요 기능들
+#  🛫 항공권 예약하기 🛫
+>참고자료
+
+:pushpin: [발표 pdf](https://drive.google.com/file/d/17qoLB1YUtQgNP_mY1IQDJtly9lD-Djat/view?usp=sharing)<br>
+
+<br>
+
+## 1. 제작 기간
+- 2021년 02월 ~ 03월 
+
+<br>
+
+## 2. 사용 기술
+  - Java 8
+  - Spring MVC
+  - Maven
+  - MariaDB
+  - JSP
+  - Ajax
+  - JQuery
+
+<br>
+
+
+## 3. 핵심 기능
+
+- 로그인 / 회원가입 기능
+- 항공 공공테이터 API 사용
+- 카드결제 API 사용한 결제 기능
+- 항공권 예약 기능
+
+<br>
+
+## 4. 주요 코드
 
 ### 인터셉터(필터 + 리플렉션을 통한 AOP)
 ```java
@@ -48,7 +81,7 @@ public class sessionintercepter implements HandlerInterceptor {
 }
 ```
 
-## 공공데이터 API 활용
+### 공공데이터 API 활용
 ```java
 package com.cos.webproject.utils;
 
@@ -156,7 +189,7 @@ public class KimHaeJejuDataDownload {
 }
 ```
 
-## Pathvariable 사용법
+### Pathvariable 사용법
 ```java
 	// Pathvariable을 사용하면 uri에서 {id}안에 있는 값을 들고 와
 	   매개변수에 넣어줄 수 있다. 여기서 의문점은 '굳이 쿼리스트링을 쓸 필요가 있을까?' 였다.
@@ -168,7 +201,7 @@ public class KimHaeJejuDataDownload {
 	}
 ```
 
-## @RequestBody / @ResponseBody
+### @RequestBody / @ResponseBody
 ```java
 
 // @RequestBody를 사용하면 Buffer의 기본 동작을 해 줄 뿐만 아니라 json으로 온 데이터를 자바의 객체 형태로
@@ -190,7 +223,7 @@ public class KimHaeJejuDataDownload {
 	}
 ```
 
-## 비동기 통신
+### 비동기 통신
 ```javascript
 async function checkid(){
 	
@@ -221,7 +254,7 @@ async function checkid(){
 
 ```
 
-## DB 연결 및 ViewResolver 설정
+### DB 연결 및 ViewResolver 설정
 ```yml
 server:
   port: 8000
